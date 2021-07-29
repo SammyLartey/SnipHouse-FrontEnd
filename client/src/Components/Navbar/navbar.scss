@@ -1,0 +1,46 @@
+@import '../../App/App.scss';
+
+.nav-center {
+    margin-left: 30%;
+
+    @media screen and (max-width: 800px) {
+        margin-left: 0;
+    }
+}
+.nav-text {
+    margin-right: 40px;
+    font-size: 17px;
+    font-weight: 400;
+    color: black !important;
+    @media screen and (max-width: 800px) {
+        margin-right: 0;
+    }
+
+    &:hover {
+        border-bottom: 4px solid $main-color;
+        color: $main-color !important;
+    }
+}
+
+.topnav {
+    font-family: $font-family2;
+}
+
+#basic-nav-dropdown {
+    color: black !important;
+    &:hover {
+        color: $main-color !important;
+    }
+}
+
+.navbar-cart-icon {
+    color: $main-color;
+}
+
+.navbar-list {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}

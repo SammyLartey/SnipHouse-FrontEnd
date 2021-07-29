@@ -1,0 +1,65 @@
+$font-family1: 'Lato', sans-serif;
+$font-family2: 'Quicksand', sans-serif;
+$temporal-color: #ededed;
+$main-color: red;
+$secondary-color: #00fa9a;
+
+body {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: $font-family1 !important;
+}
+
+.test {
+    background-color: red;
+    height: 500px;
+}
+
+.category1 {
+    background-image: url('../Assets/1.jpg');
+}
+.category2 {
+    background-image: url('../Assets/2.jpg');
+}
+.category3 {
+    background-image: url('../Assets/123.jpg');
+}
+.category4 {
+    background-image: url('../Assets/4.jpg');
+}
+.maincategory {
+    background-image: url('../Assets/wedding.jpg');
+    background-size: cover;
+}
+
+.product__item__pic {
+    @media screen and (max-width: 600px) {
+        height: 500px;
+    }
+}
+
+.instagram {
+    @media screen and (max-width: 600px) {
+        display: none;
+    }
+}
+
+.product-picture {
+    height: 100%;
+    object-fit: cover;
+}
+.product__item__pic {
+    background-color: $temporal-color;
+}
+
+.logo-image {
+    width: 100px;
+    height: auto;
+}
+
+.cart-image {
+    width: 100px;
+    height: 100px;
+}
